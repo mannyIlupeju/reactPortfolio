@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ cursor: none;
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  position: absolute;
+  pointer-events: none;
+  transform-origin: 100% 100%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  z-index: 1;
+
+}
+
+.hero-Title, .hero-Dash, .hero-Title_End, .hero-Title_Web,
+.hero_Title_Dev {
+  font-size: 170px;
+  letter-spacing: 2px;
+  line-height:1;
+ 
+}
+
+
+.glassCard {
+background: rgba( 204, 44, 44, 0.45 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+}
+
+
