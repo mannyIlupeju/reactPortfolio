@@ -29,7 +29,7 @@ const Projects = ({text, setText}) => {
             <div className='group-text'>S</div>
           </div>
         </div>
-        <div className='text-center text-xl mt-8'>
+        <div className='text-center text-gray-400 text text-xl mt-8'>
           <p>
             Here are some personal projects that i have worked on over the year
           </p>
@@ -46,12 +46,12 @@ const Projects = ({text, setText}) => {
                       href='https://github.com/mannyIlupeju/shop_project'
                       target='_blank'
                     >
-                      <FaGithub size={30} className='cursor-pointer hover:text-green-500' />
+                      <FaGithub size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                   <div>
                     <a href='https://urbanecommerce.netlify.app/' target='_blank'>
-                    <FaFolderOpen size={30} className='cursor-pointer hover:text-green-500' />
+                    <FaFolderOpen size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                 </div>
@@ -84,12 +84,12 @@ const Projects = ({text, setText}) => {
                       href='https://www.github.com/mannyIlupeju/WeatherReact'
                       target='_blank'
                     >
-                      <FaGithub size={30} className='cursor-pointer hover:text-green-500' />
+                      <FaGithub size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                   <div>
-                    <a href= 'https://weatherappv999.netlify.app/' target='_blank'>
-                    <FaFolderOpen size={30} className='cursor-pointer hover:text-green-500' />
+                    <a href= 'https://weatherreactm.netlify.app/' target='_blank'>
+                    <FaFolderOpen size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                 </div>
@@ -117,20 +117,20 @@ const Projects = ({text, setText}) => {
 
           <div className='bg-white w-fit h-fit rounded-lg p-5 projectCard'>
             <div className='flex flex-row justify-between '>
-              <h3 className=''>Retrogold Ecommerce Site</h3>
+              <h3 className='text-white'>Omnifood App</h3>
               <div className='justify-end'>
                 <div className='flex flex-row gap-x-5'>
                   <div>
                     <a
-                      href='https://github.com/mannyIlupeju/Retrogold'
+                      href='https://github.com/mannyIlupeju/Omnifooddeli'
                       target='_blank'
                     >
-                      <FaGithub size={30} className='cursor-pointer hover:text-green-500' />
+                      <FaGithub size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                   <div>
-                    <a href='https://retrogoldv1.netlify.app/'target='_blank'>
-                    <FaFolderOpen size={30} className='cursor-pointer hover:text-green-500' />
+                    <a href='https://whimsical-crepe-341e77.netlify.app/'target='_blank'>
+                    <FaFolderOpen size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                 </div>
@@ -138,17 +138,14 @@ const Projects = ({text, setText}) => {
             </div>
             <div className='w-full mt-10'>
               <p className='text-white'>
-                Built an Ecommerce website with HTML, CSS and Javascript{" "}
-                <br></br>that allows users to view products, product information
-                and <br></br>add items to cart. <br />
-                <br />I learned a lot in this project, utilizing the power of{" "}
-                <br></br>
-                higher order functions to create a dynamic ecommerce site.
+                Built an landing page for a food delivery company with HTML and CSS
+                <br></br>that allows users to view products, price and product information
+                <br/>
               </p>
               <div className='mt-8 flex justify-center'>
                 <img
-                  src='/images/RetrogoldCrop.png'
-                  alt='weather-app'
+                  src='/images/OmnifoodApp.png'
+                  alt='Omnifood-app'
                   className='imgBox'
                 ></img>
               </div>
@@ -165,12 +162,12 @@ const Projects = ({text, setText}) => {
                       href='https://github.com/mannyIlupeju/SimonGame'
                       target='_blank'
                     >
-                      <FaGithub size={30} className='cursor-pointer hover:text-green-500' />
+                      <FaGithub size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                   <div>
                     <a href='https://simon-gamev999.netlify.app/' target="_blank">
-                    <FaFolderOpen size={30} className='cursor-pointer hover:text-green-500' />
+                    <FaFolderOpen size={30} className='cursor-pointer text-gray-400 hover:text-green-500' />
                     </a>
                   </div>
                 </div>

@@ -49,7 +49,7 @@ function Navbar({nav}) {
                       >
                         {!hover ? (
                           <a href='mailto:mannybiz@outlook.com' target='_blank'>
-                            <button className='btn glass text-zinc-800'>
+                            <button className='btn glass text-red-800'>
                               {contact}
                             </button>
                           </a>

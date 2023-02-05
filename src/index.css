@@ -223,3 +223,18 @@ backdrop-filter: blur( 3px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.preloader {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: #27272A;
+  z-index: 99;
+  height: 100vh;
+}

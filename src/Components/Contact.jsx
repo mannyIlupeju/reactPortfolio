@@ -30,7 +30,7 @@ function Contact() {
         <h1 className='md:text-7xl lg:text-9xl text-3xl text-center font-semibold text-yellow-600 bg-zinc-900 rounded-2xl p-5'>
           Get In Touch
         </h1>
-        <div className='text-center mt-8'>
+        <div className='text-center text-gray-400 mt-8'>
           <p className='text-xl'>
             I'm currently available to work, Please don't hesitate to connect
             with me

@@ -31,7 +31,7 @@ function Landing({text, setText}) {
 
 
   return (
-    <section className='hero flex flex-col p-5 container-width mx-auto h-max topBg'>
+    <section className='hero flex justify-center flex-col p-5 container-width mx-auto h-max topBg'>
       <div className='container pt-20' ref={myRef}>
         {/* setting the animation for when the page is out of view and when it returns to view using the useView hook  */}
 
@@ -94,7 +94,7 @@ function Landing({text, setText}) {
           {isVisible ? (
             <div data-aos='fade-left'>
               {hover ? (
-                <div className='group-text glassCard rounded-l-lg p-4 relative top-16 lg:right-full aboutPosition'>
+                <div className='group-text glassCard rounded-l-lg p-4 relative top-16 lg:right-full aboutPosition overflow-x-hidden'>
                   <div className=' text-red-200 mb-3'>
                     <h3 className='text-xl font-semibold'>About</h3>
                   </div>

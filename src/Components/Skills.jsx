@@ -55,12 +55,12 @@ function Skills({skills, text, setText}) {
           </div>
 
           <div className='lg:col-span-1 lg:col-start-2 md:w-full'>
-            <div className='flex lg:flex-col flex-wrap lg:flex-nowrap flex-row gap-y-10 gap-x-5 lg:gap-x-20 relative right-1 h-fit md:p-8 mt-28 xl:mt-0 text-right'>
+            <div className='flex lg:flex-col flex-wrap lg:flex-nowrap text-gray-400 flex-row gap-y-10 gap-x-5 lg:gap-x-20 relative right-1 h-fit md:p-8 mt-28 xl:mt-0 text-right'>
               {skills.map((skills) => {
                 return (
                   <ul>
                     <li>
-                      <div className='xl:text-6xl lg:text-4xl font-semibold'>
+                      <div className='xl:text-6xl lg:text-4xl text-gray-400 font-semibold'>
                         {skills}
                       </div>
                     </li>
